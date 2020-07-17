@@ -1108,6 +1108,32 @@
     css-in-js-utils "^3.0.0"
     uncapitalize "1.0.2"
 
+"@elodin/utils-core@^0.0.44":
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/@elodin/utils-core/-/utils-core-0.0.44.tgz#2b056358ed93ca3f3beb759e8e5a093a79d5bc6e"
+  integrity sha512-2JFkjV0bFUqjY6Z/3MWGECyHA96wlPDc5Rh7aoJmfEIWRoqqCXQEpAPPDUwk8AKN/QKvmX8Nu3by8th9MwVAzQ==
+  dependencies:
+    color "^3.1.2"
+    css-in-js-utils "^3.0.0"
+
+"@elodin/utils-css@^0.0.44":
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/@elodin/utils-css/-/utils-css-0.0.44.tgz#22f01b2b6c8bf7b7b9fd04f22d2f63dca056373d"
+  integrity sha512-avkCJeF40wV4bu5p/36bI/ZrXE1bbN7ot+lzTqdYdEOFF8JZAv6xVKcMaDL2Fc5opoEo5iwYy/Itp2O2qVBbPA==
+  dependencies:
+    color "^3.1.2"
+    css-in-js-utils "^3.0.0"
+    murmurhash-js "^1.0.0"
+
+"@elodin/utils-javascript@^0.0.44":
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/@elodin/utils-javascript/-/utils-javascript-0.0.44.tgz#93dc824411b6c9c1cbfbaef8fb7db80a51359d39"
+  integrity sha512-LFiprgtgD0lKzCsn2U11uGqEhEagIiVdqWk4+KACCHHQFO7pQzHM4PIiFYE/ShJl5/AnIhJy9LgZAF1CN1Vz7A==
+  dependencies:
+    "@elodin/utils-css" "^0.0.44"
+    color "^3.1.2"
+    css-in-js-utils "^3.0.0"
+
 "@evocateur/libnpmaccess@^3.1.2":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@evocateur/libnpmaccess/-/libnpmaccess-3.1.2.tgz#ecf7f6ce6b004e9f942b098d92200be4a4b1c845"
@@ -7869,9 +7895,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.1.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
